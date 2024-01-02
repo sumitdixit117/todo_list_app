@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import logo from "./assets/check-list.png";
 
 const getLocalItems = () => {
   let list = localStorage.getItem('list');
@@ -76,7 +77,7 @@ const Todo = () => {
       <div className="main-div">
         <div className="child-div">
           <figure>
-            <img src="./check-list.png" alt="Todo Logo" />
+            <img src={logo} alt="Todo Logo" />
             <figcaption>Your To Do List 📌</figcaption>
           </figure>
 
