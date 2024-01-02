@@ -131,7 +131,7 @@ const Todo = () => {
               data-sm-link-text="Remove All"
               onClick={removeAll}
             >
-              <span> CHECK LIST </span>{" "}
+              <span> CHECK LIST </span>
             </button>
           </div>
         </div>
